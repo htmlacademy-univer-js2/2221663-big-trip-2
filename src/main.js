@@ -1,5 +1,5 @@
 import { render } from './render.js';
-import FiltersView from './view/filters.js';
+import FiltersView from './view/filter.js';
 import TripPresenter from './presenter/trip-presenter.js';
 
 const FILTER_CONTAINER = document.querySelector('.trip-controls__filters');
