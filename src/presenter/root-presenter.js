@@ -2,7 +2,6 @@ import EditFormView from '../view/edit-form-view.js';
 import EventsListView from '../view/events-list-view.js';
 import EventView from '../view/event-view.js';
 import { render } from '../render.js';
-import AddFormView from '../view/add-form-view.js';
 
 export default class RootPresenter {
   constructor() {
@@ -50,7 +49,6 @@ export default class RootPresenter {
 
     render(eventComponent, this._eventList.element);
   }
-  };
 
   init(rootContainer, eventsModel) {
     this._rootContainer = rootContainer;
